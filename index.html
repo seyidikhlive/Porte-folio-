@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Seyidi Khlive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">NOM + PRENOM</div>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero" id="accueil">
+      <h1>Je suis <span>Seyidi Khlive</span>,</h1>
+      <p>Développeur en formation passionné par le web et le design</p>
+      <a href="#projets" class="btn">Voir mes projets</a>
+    </section>
+  </header>
+
+  <section class="section light" id="apropos">
+    <h2>À propos</h2>
+    <div class="apropos-content">
+      <div class="text">
+        <p>Je m'appelle <strong>Seyidi Khlive</strong>, passionné par la création de sites web modernes et interactifs.</p>
+        <p>Je suis actuellement étudiant en <strong>développement web</strong> dans le cadre de la formation <strong>D-CLIC</strong>, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+        <p>J’adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+        <a class="btn" href="cv.pdf" download>Télécharger mon CV</a>
+      </div>
+      <img src="photo.jpg" alt="Seyidi Khlive">
+    </div>
+  </section>
+
+  <section class="section" id="projets">
+    <h2>Mes Projets</h2>
+    <div class="cards">
+      <div class="card">
+        <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+        <span>#html, #css, #js</span>
+        <button onclick="alert('Merci pour votre visite !')">Voir</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section light" id="competences">
+    <h2>Mes Compétences</h2>
+    <div class="skills-container">
+      <div class="skills">
+        <h3>Soft Skills</h3>
+        <p>Gestion de projet</p><div class="bar"><div style="width: 80%;"></div></div>
+        <p>Résolution de problème</p><div class="bar"><div style="width: 70%;"></div></div>
+        <p>Adaptabilité</p><div class="bar"><div style="width: 85%;"></div></div>
+      </div>
+      <div class="skills">
+        <h3>Hard Skills</h3>
+        <p>HTML</p><div class="bar"><div style="width: 90%;"></div></div>
+        <p>CSS</p><div class="bar"><div style="width: 80%;"></div></div>
+        <p>JavaScript</p><div class="bar"><div style="width: 60%;"></div></div>
+        <p>VS Code</p><div class="bar"><div style="width: 75%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark" id="contact">
+    <h2>Vous avez un <span>projet en tête ?</span> N’hésitez pas à me <span>contacter</span></h2>
+    <form>
+      <input type="text" placeholder="Votre prénom" required>
+      <input type="text" placeholder="Votre nom" required>
+      <input type="text" placeholder="Votre sujet" required>
+      <textarea placeholder="Votre message ici" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Designed by Seyidi Khlive with HTML, CSS, JS — Tous droits réservés - 2025</p>
+  </footer>
+</body>
+</html>
